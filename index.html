@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html ng-app="plunker">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui"/>
+     
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-auth.js"></script>
+  <style>
+      button[id="btn"]
+      {
+          display: none;
+      }
+  </style>
+</head>
+
+<body > 
+         
+ <input id="user" type="email" placeholder="e mail" />
+<input id="pass" type="password" placeholder="password" />
+    <button onclick="signup()" style="display:none;">Sign Up</button> 
+    <br/><br/>
+    <p id="para"></p>
+    <button onclick="login()">Login</button>
+    <button id="btn" onclick="logout()">Logout</button>
+      <script src="app.js"></script>
+    </body>
+</html>
