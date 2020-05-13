@@ -1,2 +1,2 @@
 # realtime distance
-This web app shows distance between two devices
+This web app shows realtime distance between two devices
